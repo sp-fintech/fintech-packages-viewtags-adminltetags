@@ -1,0 +1,26 @@
+{
+	"name" : "Adminltetags",
+	"display_name" : "AdminLTE HTML Helper Tags",
+	"description" : "<p>Package to generate AdminLTE framework html tags</p>",
+	"module_type" : "packages",
+	"app_type" : "fintech",
+	"category" : "viewtags",
+	"version" : "0.0.0",
+	"repo" : "https://github.com/sp-fintech/fintech-packages-viewtags-adminltetags",
+	"class" : "Apps\\Fintech\\Packages\\Adminltetags\\Adminltetags",
+	"dependencies" : 
+	{
+		"core" : 
+		{
+			"name" : "Core",
+			"version" : "0.0.0-rc.7",
+			"repo" : "https://github.com/sp-framework/core"
+		},
+		"components" : [],
+		"packages" : [],
+		"middlewares" : [],
+		"views" : [],
+		"external" : []
+	},
+	"settings" : []
+}
