@@ -4,18 +4,10 @@ namespace apps\Fintech\Packages\Adminltetags\Install;
 
 use System\Base\BasePackage;
 
-class Package extends BasePackage
+class Install extends BasePackage
 {
-    protected $installer;
-
-    protected $modulesToInstallOrUpdate;
-
-    public function install($installer)
+    public function install()
     {
-        $this->installer = $installer;
-
-        $this->modulesToInstallOrUpdate = $this->installer->modulesToInstallOrUpdate;
-
         $this->preInstall();
 
         $this->installDb();
@@ -25,17 +17,17 @@ class Package extends BasePackage
         return true;
     }
 
-    protected function preInstall()
+    public function preInstall()
     {
         return true;
     }
 
-    protected function installDb()
+    public function installDb()
     {
         return true;
     }
 
-    protected function postInstall()
+    public function postInstall()
     {
         return true;
     }
