@@ -5,7 +5,7 @@
 	"module_type" : "packages",
 	"app_type" : "fintech",
 	"category" : "viewtags",
-	"version" : "0.5.0",
+	"version" : "0.6.0",
 	"repo" : "https://github.com/sp-fintech/fintech-packages-viewtags-adminltetags",
 	"class" : "Apps\\Fintech\\Packages\\Adminltetags\\Adminltetags",
 	"dependencies" : 
